@@ -6,7 +6,6 @@ const webpack = require('webpack');
 
 module.exports = (env, argv, pathResolve) =>
     merge(base(env, argv, pathResolve), {
-
         target: 'node',
         externals: [nodeExternals()],
 

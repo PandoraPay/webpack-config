@@ -86,9 +86,6 @@ module.exports = ( env, argv, pathResolve )=>{
         //source folders
         resolve: {
             alias: {
-                'bin': pathResolve( '/../' ),
-                'src': pathResolve( '/../../src'),
-                'tests/tests': pathResolve( isTests ? '/../../tests/tests' : '/../../tests/no-tests'),
             },
             extensions: ['.js']
         },
